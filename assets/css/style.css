@@ -334,7 +334,7 @@ body::-webkit-scrollbar-button {
   font-weight: 400;
   text-transform: uppercase;
 }
-#hero .btn-get-started {
+#hero .btn-get-started{
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -350,9 +350,32 @@ body::-webkit-scrollbar-button {
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: rgba(0, 0, 0, 0.45);
-  /* color: #7cc576; */
+  /*color: #7cc576;*/
   color: #fff;
 }
+#hero .btn-horizon{
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 3px;
+  margin: 10px;
+  color: #fff;
+  /* border: 1px solid #fff; */
+  background: url("https://cars.tatamotors.com/images/build-btn.gif");
+}
+/* #hero .btn-horizon:hover{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+} */
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
