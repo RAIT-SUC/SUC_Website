@@ -1,0 +1,84 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap"); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+body {
+    /* background: url("https://images.theconversation.com/files/64127/original/2mdvqkw8-1415620078.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"); */
+    background: url(./assets/background-img.png);
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+.hlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+    margin-top: 60px;
+}
+
+.infoh {
+    color: rgb(222, 219, 219);
+    font-size: x-large;
+    font-weight: 200;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* justify-items: center; */
+}
+
+.hero-section {
+    /* font-weight: 600; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+    margin-left: 100px;
+}
+
+.role {
+    font-size: 35px;
+    color: #95c11e;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 768px) {
+    .suc-home {
+        display: none;
+    }
+}
+
+.suc-home-style {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    /* padding-top: 10px !important; */
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    /* left: 340px; */
+}
+
+.suc-home-style:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 25px;
+}

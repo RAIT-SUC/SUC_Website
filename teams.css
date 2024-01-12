@@ -1,0 +1,175 @@
+.nav-link {
+  font-family: 'montserrat';
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* added */
+.teamsmain {
+  min-width: screen;
+  overflow: hidden;
+}
+
+#footer {
+  /* background: #7b7777; */
+  background-color: rgb(123, 152, 190);
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* .footer-logo {
+  position: relative;
+  left: 620px;
+} */
+
+.social-links {
+  margin-left: 10px;
+  /* text-align: center;
+  justify-content: center;
+  justify-items: center; */
+}
+
+/* .footer-img {
+  height: 275px;
+  margin-left: 600px;
+} */
+
+.footer-img {
+  height: 275px;
+  margin-left: 612px;
+  /* text-align: center;
+  justify-content: center;
+  justify-items: center; */
+}
+
+#footer .footer-top {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 80px 0;
+}
+
+#footer .footer-top .footer-logo img {
+  height: 275px;
+}
+
+#footer .footer-top h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 30px 0 0 0;
+  margin-bottom: 0;
+}
+
+#footer .footer-top p {
+  font-size: 15;
+  font-style: italic;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+#footer .footer-top .social-links {
+  margin-top: 0;
+  margin-left: 220px;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  line-height: 1;
+  padding: 11px 0;
+  margin-right: 8px;
+  border-radius: 50%;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #5bde50;
+  text-decoration: none;
+}
+
+#footer .footer-bottom {
+  z-index: 2;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+#footer .copyright {
+  text-align: center;
+  /* justify-items: center;
+  justify-content: center; */
+}
+
+#footer .credits {
+  text-align: center;
+  /* justify-items: center;
+  justify-content: center; */
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.footer-bottom {
+  margin-left: 120px;
+  /* my pc */
+  /* margin-left: 20px; */
+}
+
+/*  IFRAME  */
+
+@media (max-width: 1023px) {
+  iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    position: relative;
+    /* commented this */
+    /* left: 40px; */
+  }
+
+  .footer-img {
+    margin-left: 80px !important;
+  }
+
+  .social-links {
+    position: relative;
+    left: -120;
+    /* left: 1px; */
+  }
+
+  .footer-bottom {
+    font-size: 15px;
+    position: relative;
+    left: -120px;
+  }
+
+  #footer .footer-top .social-links {
+    margin-top: 0;
+    margin-left: 0px;
+  }
+
+}
