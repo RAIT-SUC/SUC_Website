@@ -447,8 +447,8 @@ input[type="checkbox"] {
 
   .main-img {
     position: relative;
-    bottom: 10px;
-    height: 350px !important;
+    bottom: 30px;
+    height: 250px !important;
   }
 
   #page1 {
